@@ -1,9 +1,16 @@
-import React from 'react'
+import TotalDeCategorias from "./TotalDeCategorias"
+import TotalDeProductos from "./TotalDeProductos"
+import TotalDeUsuarios from "./TotalDeUsuarios"
 
 const MainDashboard = () => {
-  return (
-    <div>MainDashboard</div>
-  )
+
+    return (
+        <section>
+            <TotalDeProductos/>
+            <TotalDeCategorias/>
+            <TotalDeUsuarios/>
+        </section>
+    )
 }
 
 export default MainDashboard

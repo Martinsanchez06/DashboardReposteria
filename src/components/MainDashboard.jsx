@@ -1,6 +1,8 @@
 import TotalDeCategorias from "./TotalDeCategorias"
 import TotalDeProductos from "./TotalDeProductos"
 import TotalDeUsuarios from "./TotalDeUsuarios"
+import UltimoProducto from "./UltimoProducto"
+import UltimoUsuario from "./UltimoUsuario"
 
 const MainDashboard = () => {
 
@@ -9,6 +11,8 @@ const MainDashboard = () => {
             <TotalDeProductos/>
             <TotalDeCategorias/>
             <TotalDeUsuarios/>
+            <UltimoUsuario/>
+            <UltimoProducto/>
         </section>
     )
 }

@@ -20,6 +20,7 @@ const TotalDeUsuarios = () => {
 
     return (
         <section>
+            
            <p>Total de usuarios: {totalDeUsuarios}</p> 
 
         </section>

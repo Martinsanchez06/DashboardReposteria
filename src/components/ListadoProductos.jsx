@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import {Link} from "react-router-dom"
 
 const ListadoProductos = () => {
     const [product, setProduct] = useState([])
@@ -25,7 +26,7 @@ const ListadoProductos = () => {
             Nombre: {product[i].name} <br/> 
             Descripción: {product[i].description} <br/> 
             Categoria: {product[i].category} <br/>
-            <a href={product[i].detail}>Detalle</a> </p>);
+            <Link to={product[i].allProductDetails}>Detalle</Link> </p>);
       
       }
     

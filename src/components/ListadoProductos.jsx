@@ -32,11 +32,9 @@ const ListadoProductos = () => {
     return (
         <section>
         
-            <h3>Listado de Productos</h3>
-            
-          
+        <h3>Listado de Productos</h3>
            {producto}
-            {/*{product.map(item => <p key={item.id}>ID :{`${item.id} Nombre: ${item.name}Descripción: ${item.description }Categoria: ${item.category} `}</p>)}<br/>*/}
+           
         </section>
     )}
 

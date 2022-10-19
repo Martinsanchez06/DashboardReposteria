@@ -2,9 +2,6 @@ import { useEffect, useState } from "react"
 
 const ProductosCategorias = () => {
     const [pCategorias, setPCategorias] = useState([])
-    
-
-    
     useEffect(() => {
         const url = `https://san-jose-reposteria.herokuapp.com/api/products`
 

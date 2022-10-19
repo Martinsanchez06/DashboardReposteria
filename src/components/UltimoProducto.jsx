@@ -26,11 +26,11 @@ const UltimoProducto = () => {
 
     return (
         <section className="sectionUltimo">
-            <h3>Ultimo producto</h3>
+            <h3 className="ultimoItem">Ultimo producto</h3>
             {/* <img className="imgUltimo" src={producto.imagen} alt="" /> */}
-            <p>Nombre: {producto.name}</p>
-            <p>Descripcion: {producto.description}</p>
-            <p>Detalle:</p>
+            <p className="ultimoItem">Nombre: {producto.name}</p>
+            <p className="ultimoItem">Descripcion: {producto.description}</p>
+            <p className="ultimoItem">Detalle:</p>
         </section>
     )
 }

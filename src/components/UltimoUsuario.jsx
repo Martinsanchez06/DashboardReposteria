@@ -18,18 +18,18 @@ const UltimoUsuario = () => {
             })
     }, [])
 
-    if (usuario) {
+    if (usuario) { 
         console.log(usuario);
     }
 
 
     return (
         <section className="sectionUltimo">
-            <h3>Ultimo usuario</h3>
+            <h3 className="ultimoItem">Ultimo usuario</h3>
             {/* <img className="imgUltimo" src={usuario.avatar} alt="" /> */}
-            <p>Nombre: {usuario.name}</p>
-            <p>Email: {usuario.email}</p>
-            <p>Detalle:</p>
+            <p className="ultimoItem">Nombre: {usuario.name}</p>
+            <p className="ultimoItem">Email: {usuario.email}</p>
+            <p className="ultimoItem">Detalle:</p>
         </section>
     )
 }

@@ -102,12 +102,7 @@
     color: #fff;
 }
 
-.ultimoProducto h3,
-.ultimoProducto p,
-.ultimoProducto img,
-.ultimoUsuario h3,
-.ultimoUsuario p,
-.ultimoUsuario img {
+.ultimoItem {
     margin-top: 10px;
 }
 

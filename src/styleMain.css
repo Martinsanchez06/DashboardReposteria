@@ -6,8 +6,11 @@
 }
 
 .mainSection {
-    width: 85%;
     background-color: rgb(245, 245, 245);
+}
+
+.divMain {
+    display: flex;
 }
 
 /* COMPONENTE DE TOTALES */
@@ -15,8 +18,8 @@
 .totales {
     display: flex;
     padding: 20px;
+    border-bottom-right-radius: 20px;
     border-bottom: 5px solid #3c7d8f;
-    border-radius: 20px;
     justify-content: space-around;
 }
 
@@ -35,18 +38,21 @@
     border: 3px solid #00a8a8;
     padding: 10px;
     border-radius: 10px;
+    margin: 50px;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     transition: 1s;
 }
 
 .totalProductos:hover,
 .totalCategorias:hover,
 .totalUsuarios:hover {
-    padding: 20px;
     background-color: #00a8a8;
     color: #fff;
-    border-radius: 20px;
-    
-    margin: 0px 20px;
 }
 
 .h3-productsT,
@@ -64,6 +70,7 @@
 
 .sectionUltimo {
     height: 100%;
+    width: 100%;
 }
 
 /* ARTICULO DE ULTIMOS */
@@ -72,6 +79,7 @@
     padding: 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 /* ULTIMO USUARIO Y ULTIMO PRODUCTO */
@@ -81,12 +89,15 @@
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
+    margin: 50px;
+    height: fit-content;
+    text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: #00a8a8;
     width: 40%;
-    text-align: center;
-    align-items: center;
     transition: 1s;
     color: #fff;
 }
@@ -104,17 +115,22 @@
 
 .imgUltimo {
     width: 100%;
-    height: 350px;
     object-fit: cover;
+}
+
+.sectionUltimoU {
+    height: 100%;
+    background-color: red;
 }
 
 /* PRODUCTOS POR CATEGORIA */
 
 .productosCategorias {
-    background-color: red;
+    background-color: #FFA500;
     margin: 20px;
     padding: 20px;
-
+    border-radius: 20px;
+    color: rgb(53, 53, 53);
 }
 
 .productosCategorias p {
@@ -129,8 +145,81 @@
 
 /* ULTIMO ARTICULO */
 
-.lastArticle{
+.lastArticle {
     margin: 20px;
     display: flex;
     background-color: #fff;
+}
+
+/* PRODUCTOS EN LISTADO DE PRODUCTOS */
+
+.productoList {
+    margin-top: 20px;
+}
+
+.productoListElement {
+    margin-bottom: 15px;
+}
+
+.productoListLink {
+    background-color: #00a8a8;
+    text-decoration: none;
+    color: #fff;
+    transition: 1s;
+    border-radius: 20px;
+    padding: 3px 10px;
+}
+
+.productoListLink:hover {
+    padding: 5px 20px;
+}
+
+/* ESTILOS PARA EL NAV BAR */
+
+.navbar {
+    padding-top: 20px;
+    min-height: 100vh;
+    width: 30%;
+    border-right: 4px solid #3c7d8f;
+    background-color: #fae1cf;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link {
+    margin: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    transition: 1s;
+    border-radius: 20px;
+}
+
+.nav-link:hover {
+    padding: 5px 10px;
+    background-color: #fff;
+}
+
+@media (max-width: 800px) {
+
+
+    .ultimoProducto,
+    .ultimoUsuario {
+        width: fit-content;
+    }
+
+    .ultimos {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgUltimo {
+        width: 100%;
+        object-fit: cover;
+    }
+
 }

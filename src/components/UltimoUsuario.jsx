@@ -24,10 +24,10 @@ const UltimoUsuario = () => {
 
 
     return (
-        <section>
+        <section className="sectionUltimo">
             <h3>Ultimo usuario</h3>
+            {/* <img className="imgUltimo" src={usuario.avatar} alt="" /> */}
             <p>Nombre: {usuario.name}</p>
-            <img className="imgUltimo" src={usuario.avatar} alt="" />
             <p>Email: {usuario.email}</p>
             <p>Detalle:</p>
         </section>

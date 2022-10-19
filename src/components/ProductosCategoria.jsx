@@ -23,7 +23,12 @@ const ProductosCategorias = () => {
         
             <h3>Productos por Categorias</h3>
 
-            {pCategorias.map(item => <p key={item.categoria}>{`${item.categoria}: ${item.productos} producto/s`}</p>)}
+            {pCategorias.map(item => <p key={item.categoria}>
+
+                <b>{item.categoria}:</b>
+                <p>{item.productos} producto/s</p>
+            
+            </p>)}
         </section>
     )}
 

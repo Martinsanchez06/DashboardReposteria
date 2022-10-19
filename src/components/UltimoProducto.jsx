@@ -27,8 +27,8 @@ const UltimoProducto = () => {
     return (
         <section className="sectionUltimo">
             <h3>Ultimo producto</h3>
+            {/* <img className="imgUltimo" src={producto.imagen} alt="" /> */}
             <p>Nombre: {producto.name}</p>
-            <img className="imgUltimo" src={producto.imagen} alt="" />
             <p>Descripcion: {producto.description}</p>
             <p>Detalle:</p>
         </section>

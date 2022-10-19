@@ -29,7 +29,7 @@ const UltimoUsuario = () => {
             {/* <img className="imgUltimo" src={usuario.avatar} alt="" /> */}
             <p className="ultimoItem">Nombre: {usuario.name}</p>
             <p className="ultimoItem">Email: {usuario.email}</p>
-            <p className="ultimoItem">Detalle:</p>
+            {/* <p className="ultimoItem">Detalle:</p> */}
         </section>
     )
 }

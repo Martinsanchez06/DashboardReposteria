@@ -30,7 +30,7 @@ const UltimoProducto = () => {
             {/* <img className="imgUltimo" src={producto.imagen} alt="" /> */}
             <p className="ultimoItem">Nombre: {producto.name}</p>
             <p className="ultimoItem">Descripcion: {producto.description}</p>
-            <p className="ultimoItem">Detalle:</p>
+            {/* <p className="ultimoItem">Detalle:</p> */}
         </section>
     )
 }

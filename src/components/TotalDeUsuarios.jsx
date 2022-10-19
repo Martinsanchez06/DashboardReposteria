@@ -20,8 +20,8 @@ const TotalDeUsuarios = () => {
 
     return (
         <section>
-            
-           <p>Total de usuarios: {totalDeUsuarios}</p> 
+            <h3 className="h3-usuariosT">Total de usuarios</h3>
+            <p className="p-usuariosT">{totalDeUsuarios}</p>
 
         </section>
     )

@@ -1,0 +1,136 @@
+* {
+    font-family: 'Merienda', cursive;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.mainSection {
+    width: 85%;
+    background-color: rgb(245, 245, 245);
+}
+
+/* COMPONENTE DE TOTALES */
+
+.totales {
+    display: flex;
+    padding: 20px;
+    border-bottom: 5px solid #3c7d8f;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+.totales div {
+    margin: 0px 10px;
+    text-align: center;
+}
+
+/* TOTAL DE PRODUCTOS */
+
+
+
+.totalProductos,
+.totalCategorias,
+.totalUsuarios {
+    border: 3px solid #00a8a8;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.totalProductos:hover,
+.totalCategorias:hover,
+.totalUsuarios:hover {
+    padding: 20px;
+    background-color: #00a8a8;
+    color: #fff;
+    border-radius: 20px;
+    
+    margin: 0px 20px;
+}
+
+.h3-productsT,
+.h3-categoriasT,
+.h3-usuariosT {
+    font-size: 25px;
+}
+
+.p-productosT,
+.p-categoriasT,
+.p-usuariosT {
+
+    font-size: 25px;
+}
+
+.sectionUltimo {
+    height: 100%;
+}
+
+/* ARTICULO DE ULTIMOS */
+
+.ultimos {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ULTIMO USUARIO Y ULTIMO PRODUCTO */
+
+.ultimoProducto,
+.ultimoUsuario {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #00a8a8;
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    transition: 1s;
+    color: #fff;
+}
+
+.ultimoProducto h3,
+.ultimoProducto p,
+.ultimoProducto img,
+.ultimoUsuario h3,
+.ultimoUsuario p,
+.ultimoUsuario img {
+    margin-top: 10px;
+}
+
+/* ULTIMO USUARIO */
+
+.imgUltimo {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* PRODUCTOS POR CATEGORIA */
+
+.productosCategorias {
+    background-color: red;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.productosCategorias p {
+    margin-top: 10px;
+}
+
+/* LISTADO DE PRODUCTOS */
+
+.listadoProductos {
+    margin: 20px;
+}
+
+/* ULTIMO ARTICULO */
+
+.lastArticle{
+    margin: 20px;
+    display: flex;
+    background-color: #fff;
+}

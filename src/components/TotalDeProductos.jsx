@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 
+
 const TotalDeProductos = () => {
     const [products, setProducts] = useState([])
 
@@ -20,7 +21,8 @@ const TotalDeProductos = () => {
 
     return (
         <section>
-            <p>Total de productos: {totalDeProductos}</p>
+            <h3 className="h3-productsT">Total de productos</h3>
+            <p className="p-productosT">{totalDeProductos}</p>
         </section>
     )
 }

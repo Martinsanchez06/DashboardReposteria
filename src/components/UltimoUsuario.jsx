@@ -27,6 +27,7 @@ const UltimoUsuario = () => {
         <section>
             <h3>Ultimo usuario</h3>
             <p>Nombre: {usuario.name}</p>
+            <img className="imgUltimo" src={usuario.avatar} alt="" />
             <p>Email: {usuario.email}</p>
             <p>Detalle:</p>
         </section>

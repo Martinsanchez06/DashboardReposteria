@@ -25,6 +25,7 @@ const ListadoProductos = () => {
             <p className="productoListElement"> <b> Descripción:</b> {product[i].description}</p>
             <p className="productoListElement"> <b> Categoria:</b> {product[i].category}</p>
             {/* <a className="productoListLink" href={product[i].allProductDetails}>Detalle</a>*/}
+            <hr className="hrProduct"/>
             </p>);
     }
 
